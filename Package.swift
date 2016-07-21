@@ -23,7 +23,6 @@ dependencies += [
 
 let package = Package(
     name: "Engine",
-    dependencies: dependencies,
     targets: [
         Target(
             name: "Base"
@@ -66,6 +65,7 @@ let package = Package(
             ]
         )
     ],
+    dependencies: dependencies,
     exclude: [
         "Resources"
     ]
